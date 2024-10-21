@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-scoped-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.14",
+    "tailwindcss-scoped-preflight": "3.4.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
