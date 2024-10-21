@@ -1,7 +1,7 @@
-// import {
-//   isolateInsideOfContainer,
-//   scopedPreflightStyles,
-// } from "tailwindcss-scoped-preflight";
+import {
+  isolateInsideOfContainer,
+  scopedPreflightStyles,
+} from "tailwindcss-scoped-preflight";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -10,8 +10,8 @@ export default {
     extend: {},
   },
   plugins: [
-    // scopedPreflightStyles({
-    //   isolationStrategy: isolateInsideOfContainer("some-prefix"),
-    // }),
+    scopedPreflightStyles({
+      isolationStrategy: isolateInsideOfContainer("some-prefix"),
+    }),
   ],
 };
